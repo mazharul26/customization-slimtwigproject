@@ -1,0 +1,9 @@
+/vendor/
+/logs/*
+!/logs/.gitkeep
+.idea/*
+config.php
+.env
+test.php
+tmp/*
+!tmp/.gitkeep

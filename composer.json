@@ -1,0 +1,26 @@
+{
+    "name": "sharmin/copyrightdev",
+    "description": "Copyright-dev project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sharminex81",
+            "email": "mimetyshanta@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "slim/slim": "^3.9",
+        "slim/twig-view": "^2.3",
+        "slim/php-view": "^2.2",
+        "slim/flash": "^0.2.0",
+        "hassankhan/config": "^1.0",
+        "monolog/monolog": "^1.0",
+        "vlucas/phpdotenv": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Previewtechs\\App\\": "src"
+        }
+    }
+}
